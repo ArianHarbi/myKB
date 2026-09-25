@@ -1,4 +1,13 @@
-inlclude:
+include:
+  # keyboard: cradio sweep
+  - board: nice_nano//zmk
+    shield: cradio_left
+    snippet: studio-rpc-usb-uart
+    #snippet: zmk-usb-logging
+  - board: nice_nano//zmk
+    shield: cradio_right
+  - board: nice_nano//zmk
+    shield: settings_resetinlclude:
   - board: nice_nano_v2
     sheild: custom_sweep_left
   - board: nice_nano_v2
